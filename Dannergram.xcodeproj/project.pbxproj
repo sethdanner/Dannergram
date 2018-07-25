@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60698C8021092D76009F2D04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60698C7F21092D76009F2D04 /* AppDelegate.swift */; };
+		60698C8521092D76009F2D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60698C8321092D76009F2D04 /* Main.storyboard */; };
+		60698C8721092D78009F2D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60698C8621092D78009F2D04 /* Assets.xcassets */; };
+		60698C8A21092D78009F2D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60698C8821092D78009F2D04 /* LaunchScreen.storyboard */; };
+		60698C94210932C3009F2D04 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60698C93210932C3009F2D04 /* PostListTableViewController.swift */; };
+		60698C96210934BB009F2D04 /* PostDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60698C95210934BB009F2D04 /* PostDetailTableViewController.swift */; };
+		60698C982109351E009F2D04 /* AddPostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60698C972109351E009F2D04 /* AddPostTableViewController.swift */; };
+		60698C9A21093583009F2D04 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60698C9921093583009F2D04 /* SearchResultsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60698C7C21092D76009F2D04 /* Dannergram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dannergram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60698C7F21092D76009F2D04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60698C8421092D76009F2D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60698C8621092D78009F2D04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60698C8921092D78009F2D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60698C8B21092D78009F2D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60698C93210932C3009F2D04 /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
+		60698C95210934BB009F2D04 /* PostDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewController.swift; sourceTree = "<group>"; };
+		60698C972109351E009F2D04 /* AddPostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostTableViewController.swift; sourceTree = "<group>"; };
+		60698C9921093583009F2D04 /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60698C7921092D76009F2D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60698C7321092D75009F2D04 = {
+			isa = PBXGroup;
+			children = (
+				60698C7E21092D76009F2D04 /* Dannergram */,
+				60698C7D21092D76009F2D04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60698C7D21092D76009F2D04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60698C7C21092D76009F2D04 /* Dannergram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60698C7E21092D76009F2D04 /* Dannergram */ = {
+			isa = PBXGroup;
+			children = (
+				60698C93210932C3009F2D04 /* PostListTableViewController.swift */,
+				60698C95210934BB009F2D04 /* PostDetailTableViewController.swift */,
+				60698C972109351E009F2D04 /* AddPostTableViewController.swift */,
+				60698C9921093583009F2D04 /* SearchResultsTableViewController.swift */,
+				60698C9221092DB8009F2D04 /* Storyboards */,
+				60698C9121092DA9009F2D04 /* Resources */,
+			);
+			path = Dannergram;
+			sourceTree = "<group>";
+		};
+		60698C9121092DA9009F2D04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60698C7F21092D76009F2D04 /* AppDelegate.swift */,
+				60698C8621092D78009F2D04 /* Assets.xcassets */,
+				60698C8B21092D78009F2D04 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60698C9221092DB8009F2D04 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				60698C8321092D76009F2D04 /* Main.storyboard */,
+				60698C8821092D78009F2D04 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60698C7B21092D76009F2D04 /* Dannergram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60698C8E21092D78009F2D04 /* Build configuration list for PBXNativeTarget "Dannergram" */;
+			buildPhases = (
+				60698C7821092D76009F2D04 /* Sources */,
+				60698C7921092D76009F2D04 /* Frameworks */,
+				60698C7A21092D76009F2D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dannergram;
+			productName = Dannergram;
+			productReference = 60698C7C21092D76009F2D04 /* Dannergram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60698C7421092D75009F2D04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Seth Danner";
+				TargetAttributes = {
+					60698C7B21092D76009F2D04 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 60698C7721092D75009F2D04 /* Build configuration list for PBXProject "Dannergram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60698C7321092D75009F2D04;
+			productRefGroup = 60698C7D21092D76009F2D04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60698C7B21092D76009F2D04 /* Dannergram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60698C7A21092D76009F2D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60698C8A21092D78009F2D04 /* LaunchScreen.storyboard in Resources */,
+				60698C8721092D78009F2D04 /* Assets.xcassets in Resources */,
+				60698C8521092D76009F2D04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60698C7821092D76009F2D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60698C8021092D76009F2D04 /* AppDelegate.swift in Sources */,
+				60698C94210932C3009F2D04 /* PostListTableViewController.swift in Sources */,
+				60698C9A21093583009F2D04 /* SearchResultsTableViewController.swift in Sources */,
+				60698C982109351E009F2D04 /* AddPostTableViewController.swift in Sources */,
+				60698C96210934BB009F2D04 /* PostDetailTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60698C8321092D76009F2D04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60698C8421092D76009F2D04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60698C8821092D78009F2D04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60698C8921092D78009F2D04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60698C8C21092D78009F2D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60698C8D21092D78009F2D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60698C8F21092D78009F2D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KP8U9QDYN;
+				INFOPLIST_FILE = "$(SRCROOT)/Dannergram/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SethDanner.Dannergram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60698C9021092D78009F2D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KP8U9QDYN;
+				INFOPLIST_FILE = "$(SRCROOT)/Dannergram/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SethDanner.Dannergram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60698C7721092D75009F2D04 /* Build configuration list for PBXProject "Dannergram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60698C8C21092D78009F2D04 /* Debug */,
+				60698C8D21092D78009F2D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60698C8E21092D78009F2D04 /* Build configuration list for PBXNativeTarget "Dannergram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60698C8F21092D78009F2D04 /* Debug */,
+				60698C9021092D78009F2D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60698C7421092D75009F2D04 /* Project object */;
+}
