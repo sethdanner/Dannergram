@@ -19,9 +19,9 @@ class Post {
         return UIImage(data: photoData)
     }
     
-    init(photoData: Data?, timestamp: Date, comment: [Comment] = []) {
+    init(photoData: Data?, timestamp: Date = Date(), comment: [Comment] = []) {
         self.photoData = photoData
-        self.timestamp = Date()
+        self.timestamp = timestamp
         self.comment = comment
     }
 }

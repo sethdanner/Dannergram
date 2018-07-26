@@ -14,9 +14,9 @@ class Comment {
     let timestamp: Date
     let post: Post
     
-    init(text: String, timestamp: Date, post: Post) {
+    init(text: String, timestamp: Date = Date(), post: Post) {
         self.text = text
-        self.timestamp = Date()
+        self.timestamp = timestamp
         self.post = post
     }
 }

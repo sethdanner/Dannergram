@@ -17,6 +17,7 @@
 		60698C9A21093583009F2D04 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60698C9921093583009F2D04 /* SearchResultsTableViewController.swift */; };
 		60698C9D210A2DFB009F2D04 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60698C9C210A2DFB009F2D04 /* Post.swift */; };
 		60698C9F210A2EFD009F2D04 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60698C9E210A2EFD009F2D04 /* Comment.swift */; };
+		60698CA2210A3E14009F2D04 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60698CA1210A3E14009F2D04 /* PostController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		60698C9921093583009F2D04 /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
 		60698C9C210A2DFB009F2D04 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		60698C9E210A2EFD009F2D04 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		60698CA1210A3E14009F2D04 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				60698CA0210A2F05009F2D04 /* Models */,
+				60698CA3210A3E22009F2D04 /* ModelControllers */,
 				60698C9B210A2DDA009F2D04 /* ViewControllers */,
 				60698C9221092DB8009F2D04 /* Storyboards */,
 				60698C9121092DA9009F2D04 /* Resources */,
@@ -109,6 +112,14 @@
 				60698C9E210A2EFD009F2D04 /* Comment.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		60698CA3210A3E22009F2D04 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				60698CA1210A3E14009F2D04 /* PostController.swift */,
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60698C8021092D76009F2D04 /* AppDelegate.swift in Sources */,
+				60698CA2210A3E14009F2D04 /* PostController.swift in Sources */,
 				60698C94210932C3009F2D04 /* PostListTableViewController.swift in Sources */,
 				60698C9A21093583009F2D04 /* SearchResultsTableViewController.swift in Sources */,
 				60698C9F210A2EFD009F2D04 /* Comment.swift in Sources */,
